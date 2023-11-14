@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Involved</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        form {
+            max-width: 400px;
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Get Involved</h1>
+
+    <p>We appreciate your interest in getting involved! Please fill out the form below to let us know how you would like to contribute.</p>
+
+    <form id="getInvolvedForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+
+    <div id="contributeInfo">
+        <h2>How to Contribute</h2>
+        <p>There are various ways you can contribute to our cause:</p>
+        <ul>
+            <li>Volunteer for events and activities.</li>
+            <li>Donate to support our initiatives.</li>
+            <li>Spread awareness on social media.</li>
+        </ul>
+    </div>
+
+    <script>
+        function submitForm() {
+            // You can add logic here to handle the form submission, e.g., sending data to a server.
+            alert("Form submitted!");
+        }
+    </script>
+
+</body>
+</html>
