@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    color:white;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #49c5b6;
+}
+
+div{
+    background-image: url("imgages/earth-day-7903523_1280.png");
+    background-size: cover;
+    padding: 100px 0 40px 0;
+}
+
+    h1 {
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+      }
+
+h2, p, ul, li{
+    text-align:left;
+}
+h1, h2{
+    text-align: center;
+    color:#2779a7;
+}
+p{
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
