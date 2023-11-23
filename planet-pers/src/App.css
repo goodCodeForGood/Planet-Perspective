@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  margin: 0;
+  color:white;
+  font-family: 'Orbitron', sans-serif;
+  
+  background-image: linear-gradient(to bottom right, green, blue);
+  text-align: center;
+}
+
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+
+
+body {
+ background-image: url("pexels-photo-1743165.jpeg");
+
+}
+
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 25px;
+  margin: 20px;
+}
+
+a:link, a:visited {
+  background-color: #2779a7;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
+
+  h1, h2 {
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+    }
+
+#main--title{
+  color: #45a049;
+  -webkit-text-stroke: #282c34;
+}
+
+h2, p, ul, li{
+  text-align:left;
+}
+h1, h2{
+  text-align: center;
+  color:#2779a7;
+}
+p{
+ margin-left: 20px;
+ margin-right: 20px;
+}
+
+form {
+  align-content: center;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+label {
+  align-self: center;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input, textarea {
+  align-items: center;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
