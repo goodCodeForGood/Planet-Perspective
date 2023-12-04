@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+//need to to research further on how to get submit button to work
+
 const Form = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
