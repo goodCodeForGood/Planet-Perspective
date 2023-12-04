@@ -58,10 +58,10 @@ export default function Quiz() {
     };
 
     return (
-        // <main>
-        //     <h1 >Quiz</h1>
+         <main>
+             <h1 >Quiz</h1>
         
-        // </main>
+       
         <div className='quiz'>
             {showScore ? (
                 <div className='score-section'>
@@ -83,5 +83,6 @@ export default function Quiz() {
                 </>
             )}
         </div>
+                </main>
     );
 }
