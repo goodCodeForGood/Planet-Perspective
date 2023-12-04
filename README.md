@@ -1,6 +1,6 @@
 # Planet-Perspective
 
-This is a Give Back Project under Girls Who Code, created to help spread information and resouces to people seeking to learn about climate change. Updates will be made even after the fellowship is completed as this is an ongoing issue and any awareness that is spread even through our website can be of help.
+This is a Give Back Project under Girls Who Code, created to help spread information and resources to people seeking to learn about climate change. Updates will be made even after the fellowship is completed as this is an ongoing issue and any awareness that is spread even through our website can be of help.
 
 ## Guide to run the react app locally:
 STEP 1:  Clone repository.
