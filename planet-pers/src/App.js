@@ -8,6 +8,7 @@ import GetInvolved from "./components/GetInvolved"
 import Quiz from "./components/Quiz"
 import About from "./components/About"
 import Header from "./components/Header"
+import Resources from "./components/Resources"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <About />
             <Main />
             <Causes />
+            <Resources />
             <GetInvolved />
             
     </div>
