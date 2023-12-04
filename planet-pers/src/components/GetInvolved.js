@@ -15,7 +15,8 @@ const Form = () => {
   return (
     <div>
     <h1>Get Involved </h1>
-    <form onSubmit={handleSubmit}>
+    <h2> 
+      <form onSubmit={handleSubmit}>
       <input
         type="text"
         placeholder="Name"
@@ -35,6 +36,7 @@ const Form = () => {
       />
       <button type="submit">Submit</button>
     </form>
+    </h2>
     <li><a href="Header.js">Top of Page</a></li>
     </div>
   );
