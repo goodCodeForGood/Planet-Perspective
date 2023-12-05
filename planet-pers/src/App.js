@@ -9,6 +9,7 @@ import Quiz from "./components/Quiz"
 import About from "./components/About"
 import Header from "./components/Header"
 import Resources from "./components/Resources"
+import CarbonFootprintCalculator from "./components/Calculator"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Main />
             <Causes />
             <Resources />
+            <CarbonFootprintCalculator />
             <GetInvolved />
             
     </div>
