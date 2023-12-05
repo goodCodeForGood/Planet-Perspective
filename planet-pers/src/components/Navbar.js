@@ -8,8 +8,8 @@ export default function Navbar() {
     <div class="top-nav">
         <a href="About.js">About</a>
             <a href="Quiz.js">Quiz</a>
-            <a href="GetInvolved.js">Get Involved</a>
             <a href="Calculator.js">Carbon Footprint Calculator</a>
+            <a href="GetInvolved.js">Get Involved</a>
     </div>
 </nav>
 </div>
