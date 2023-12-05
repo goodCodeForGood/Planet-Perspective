@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function Quiz() {
+export default function Calculator() {
     return (
         <iframe 
             width="710" 
