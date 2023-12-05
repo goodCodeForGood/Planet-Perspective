@@ -36,5 +36,9 @@ export default function Resources() {
         </li>
     </ul>
 </div>
+
+<a class="twitter-timeline" href="https://twitter.com/UNFCCC?ref_src=twsrc%5Etfw">Tweets by UNFCCC</a> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            
     </div>
 )}

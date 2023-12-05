@@ -35,6 +35,8 @@ export default function Main() {
             <li>The Paris Agreement, adopted in 2015, aims to limit global warming to well below 2 degrees Celsius above pre-industrial levels, with efforts to limit it to 1.5 degrees Celsius.</li></ul>
             
             <p>It's essential to note that ongoing research and monitoring provide more detailed and updated information. Governments, scientists, and organizations around the world continue to work on mitigating and adapting to the impacts of climate change. For the latest information, refer to reputable sources like the Intergovernmental Panel on Climate Change (IPCC), the World Meteorological Organization (WMO), and other climate research institutions</p>
+            
+            
         </main>
     )
 }
