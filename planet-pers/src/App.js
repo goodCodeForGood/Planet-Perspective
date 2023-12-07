@@ -1,6 +1,8 @@
 
 import './App.css';
 
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Navbar from "./components/Navbar"
 import Main from "./components/Main"
 import Causes from "./components/Causes"
@@ -13,19 +15,24 @@ import Calculator from "./components/Calculator"
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <Router>
+        <Header />
+        <Navbar />
+        <Routes>
+          <Route path='/' exact />
+        </Routes>
+      </Router>
+
       
-            <Header />
-            <Navbar />
-            <Quiz />
-            <About />
-            <Main />
-            <Causes />
-            <Resources />
-            <Calculator />
-            <GetInvolved />
-            
-    </div>
+      <Quiz />
+      <About />
+      <Main />
+      <Causes />
+      <Resources />
+      <Calculator />
+      <GetInvolved />
+    </>
   );
 }
 
